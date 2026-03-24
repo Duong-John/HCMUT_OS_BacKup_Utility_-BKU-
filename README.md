@@ -1,10 +1,10 @@
 # Backup Utility (BKU)
 
-A lightweight, Git-inspired backup tool built entirely with Bash scripting. [cite_start]Developed for **Lab 1: Introduction to Linux Programming (Section 3.6)** at **Ho Chi Minh City University of Technology (HCMUT)**.
+A lightweight, Git-inspired backup tool built entirely with Bash scripting. Developed for **Lab 1: Introduction to Linux Programming (Section 3.6)** at **Ho Chi Minh City University of Technology (HCMUT)**.
 
 ## Overview
 
-BKU is designed to selectively back up source code files within a directory[cite: 581]. [cite_start]Unlike traditional backup systems that copy entire files, BKU focuses on storing differences (**diffs**) to save space and provide a history of changes.
+BKU is designed to selectively back up source code files within a directory. Unlike traditional backup systems that copy entire files, BKU focuses on storing differences (**diffs**) to save space and provide a history of changes.
 
 ## Features
 
@@ -32,7 +32,7 @@ The system includes a `setup.sh` script to check for dependencies (`diff`, `cron
 
 ## Usage
 
-[cite_start]BKU must be initialized within the "Root Folder" of your project before use[cite: 583].
+BKU must be initialized within the "Root Folder" of your project before use.
 
 ### Basic Commands
 
